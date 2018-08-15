@@ -42,8 +42,8 @@ footer {
   background-color: #666666;
   color: #ffffff;
   text-align: center;
-  position: fixed;
-  bottom:0;
+  /* position: fixed;
+  bottom:0; */
   width: 100%;
 }
 #myName {
@@ -65,6 +65,9 @@ footer {
   border: 1px solid #dddddd;
   margin: 20px auto 20px auto;
   overflow: hidden;
+}
+.container-wrapper {
+  min-height: calc(100vh - 160px);
 }
 .copyright{
   opacity: 0.5;
@@ -95,14 +98,4 @@ a.nav {
 /* a:link, a:visited, a:active,  */
 a.nav:hover {
   color:red;
-}
-.navBar {
-  float: left;
-  border-bottom: 2px solid #a5a5a5;
-  padding: 0 0 10px 30px;
-  overflow: auto;
-  width: 100%;
-  font-family: Georgia, serif;
-  font-size: 20px;
-  font-weight: bold;
 }
