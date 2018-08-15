@@ -36,10 +36,15 @@ p {
 }
 footer {
   height: 80px;
+  padding-top: 50px;
   border-top: 10px solid;
   border-color: #4aaaa5;
-  background-color: gray;
+  background-color: #666666;
+  color: #ffffff;
   text-align: center;
+  position: fixed;
+  bottom:0;
+  width: 100%;
 }
 #myName {
   margin:0;
@@ -60,6 +65,9 @@ footer {
   border: 1px solid #dddddd;
   margin: 20px auto 20px auto;
   overflow: hidden;
+}
+.copyright{
+  opacity: 0.5;
 }
 .header-wrapper {
   width: 960px;
