@@ -44,7 +44,7 @@ footer {
 #myName {
   margin:0;
   padding: 15px 15px 0 15px;
-  height: 65px;
+  height: 80px;
 }
 #profileImg {
   float:left;
@@ -61,13 +61,21 @@ footer {
   margin: 20px auto 20px auto;
   overflow: hidden;
 }
-
+.header-wrapper {
+  width: 960px;
+  margin: auto;
+}
 .nav-container {
   float: right;
   margin: 25px 10px;
 }
 a.nav.active {
   text-decoration: underline;
+}
+a.nav.middle {
+  border-color: #777777;
+  border: 1px;
+  border-style: none solid;
 }
 a.nav {
   padding: 0 10px;
